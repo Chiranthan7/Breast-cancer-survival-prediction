@@ -1,11 +1,13 @@
 # Breast Cancer Survival Prediction using Machine Learning
-Machine learning project predicting breast cancer survival using ensemble models and explainable AI. This contains different machine learning model used and their comparision at the end.
+
+This project predicts breast cancer patient survival outcomes using machine learning models.
 
 ## Dataset
 Breast Cancer Survival Dataset
-4024 patient records
+- 4024 patient records
+- 16 clinical features
 
-## Features
+Key Features:
 - Age
 - Tumor Size
 - Regional Node Examined
@@ -22,19 +24,33 @@ Breast Cancer Survival Dataset
 - Random Forest
 - Gradient Boosting
 - XGBoost
-- Stacking Ensemble
 
-## Best Model Performance
+## Best Model
 
-Random Forest Accuracy: ~90%
+Random Forest
 
-## Techniques Used
-- Feature engineering
-- Hyperparameter tuning
-- ROC curve analysis
-- Cross validation
-- PCA visualization
-- Explainable AI (SHAP)
+Accuracy: ~90%
+
+## Evaluation Metrics
+
+- Accuracy
+- Confusion Matrix
+- ROC Curve
+- Cross Validation
+
+## Visualizations
+
+- Correlation Heatmap
+- Feature Importance
+- ROC Curve
+- Model Comparison
 
 ## Tools
-Python, Scikit-Learn, XGBoost, Pandas, Matplotlib, Seaborn
+
+Python  
+Scikit-Learn  
+XGBoost  
+Pandas  
+Matplotlib  
+Seaborn  
+SHAP
